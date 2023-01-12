@@ -11,6 +11,9 @@ public class SbJenkinsDemoApplication {
 	public static final Logger logger=LoggerFactory.getLogger(SbJenkinsDemoApplication.class);
 
 	public static void main(String[] args) {
+
+
+
 		logger.info("it is the continius integration");
 		SpringApplication.run(SbJenkinsDemoApplication.class, args);
 	}
