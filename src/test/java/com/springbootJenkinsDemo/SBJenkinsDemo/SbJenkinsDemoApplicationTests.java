@@ -13,7 +13,7 @@ class SbJenkinsDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		
+
 		logger.info("it is the test continius integration");
 		assertEquals(true,true);
 
